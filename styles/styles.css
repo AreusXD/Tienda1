@@ -129,9 +129,7 @@ form button:hover {
     background-color: #B22222;
 }
 
-/* Estilos específicos para el inicio de sesión */
-.login-container {
-    width: 300px;
+.login-container, .register-container {
     margin: 100px auto;
     padding: 30px;
     border: 1px solid #ddd;
@@ -141,7 +139,7 @@ form button:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.login-container input {
+.login-container input, .register-container input {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
@@ -149,7 +147,7 @@ form button:hover {
     border: 1px solid #ccc;
 }
 
-.login-container button {
+.login-container button, .register-container button {
     width: 100%;
     padding: 10px;
     background-color: #8B0000;
@@ -161,47 +159,10 @@ form button:hover {
     transition: background-color 0.3s ease;
 }
 
-.login-container button:hover {
+.login-container button:hover, .register-container button:hover {
     background-color: #B22222;
 }
 
-/* Estilos específicos para el registro */
-.register-container {
-    width: 400px;
-    margin: 100px auto;
-    padding: 30px;
-    border: 1px solid #ddd;
-    background-color: rgba(255, 255, 255, 0.9);
-    text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.register-container input {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-}
-
-.register-container button {
-    width: 100%;
-    padding: 10px;
-    background-color: #8B0000;
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-}
-
-.register-container button:hover {
-    background-color: #B22222;
-}
-
-/* Estilo para el nuevo div */
 .id {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
@@ -211,6 +172,7 @@ form button:hover {
     text-align: center;
     animation: slideIn 1.5s ease-in-out;
 }
+
 .ide {
     border-radius: 4px;
     margin-top: 10px;
@@ -221,6 +183,35 @@ form button:hover {
     background-color: #8B0000;
     color: white;
     font-size: 1.2em;
+}
+
+/* Estilos específicos para la sección de "Conéctate con nosotros" */
+.connect-section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.connect-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.connect-section ul li {
+    margin: 10px 0;
+}
+
+.connect-section ul li a {
+    color: #8B0000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.connect-section ul li a:hover {
+    color: #B22222;
 }
 
 /* Animaciones */
